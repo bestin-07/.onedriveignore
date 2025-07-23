@@ -1,6 +1,6 @@
 # .onedriveignore 
 
-This Vibe-Coded repository provides tools to help you control which files and folders are synced with OneDrive, using a `.onedriveignore` file and a PowerShell script for selective syncing. Useful to keep projects in antivirus exclusion floders but still need an automatic backup for your work related "stuff".
+This Vibe-Coded repository provides tools to help you control which files and folders are synced with OneDrive, using a `.onedriveignore` file and a PowerShell script for selective syncing. Useful to keep projects in antivirus exclusion folders but still need an automatic backup for your work related "stuff".
 
 ## How to Set Up OneDrive Sync with Ignore Rules
 
@@ -24,7 +24,7 @@ Create a `.onedriveignore` file in your folder to specify patterns for files and
 **Example `.onedriveignore`:**
 ```
 *.log
-node_modules/
+temp/
 secrets.txt
 ```
 
