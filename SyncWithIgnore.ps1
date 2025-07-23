@@ -1,5 +1,5 @@
 # === CONFIGURATION ===
-$LocalProject = "C:\TargetFolder"
+$LocalProject = "C:\OriginalFolder"
 $OneDriveProject = "$env:User\OneDrive - Company\Linkfolder"
 $IgnoreFile = Join-Path $LocalProject ".onedriveignore"
 
