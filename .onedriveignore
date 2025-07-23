@@ -1,0 +1,12 @@
+
+
+# Ignored folders Wildcards
+*.build/
+*.temp/
+
+# Ignored files
+*.log
+debug.exe
+
+# Specific folders
+Projects/.build/
