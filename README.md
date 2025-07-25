@@ -59,11 +59,50 @@ You specify these three locations in the script before running.
 
 ```
 
-cache/
-build/
-node_modules/
-bin/
-secrets.txt
+# Ignore all 'bin' and 'obj' folders in any subdirectory
+**\bin\
+**\obj\
+
+# Ignore all hidden Git folders and metadata
+**\.git\
+**\.vs\
+**\.vscode\
+
+# Ignore temporary or intermediate files
+*.tmp
+*.log
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Ignore compiled outputs
+*.exe
+*.dll
+*.pdb
+*.class
+*.out
+
+# Ignore large files not needed for backup
+*.iso
+*.zip
+*.7z
+*.tar.gz
+
+# Ignore cache folders
+**\__pycache__\
+**\node_modules\
+**\.cache\
+
+# Ignore custom folders
+Temp\
+Scratch\
+Drafts\
+
+# Ignore specific project files
+my_project\SimulationLogs\
+my_project\OldVersions\
+
 ```
 
 ---
