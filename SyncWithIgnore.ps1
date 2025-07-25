@@ -8,7 +8,7 @@ $EnableHashCheckForBin = $true
 $DryRun = $false
 
 # ====== Log setup =======
-$LogDir = "C:\Users\bestina\OneDrive - ABB\logs"
+$LogDir = "C:\Users\user\OneDrive - Company\logs"
 if (!(Test-Path -Path $LogDir)) {
     New-Item -ItemType Directory -Path $LogDir -Force | Out-Null
 }
