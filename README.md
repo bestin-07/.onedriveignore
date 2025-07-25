@@ -1,6 +1,6 @@
 # Smart Project Backup with `.onedriveignore` and PowerShell
 
-This vibe coded (still too much effort) helps you efficiently back up your important project files and directories to a destination backup folder, using OneDrive as a robust cloud solution. This repository provides a PowerShell script and configuration setup to help you maintain organized, fast backups without including unnecessary files like cache, temp, or build artifacts.
+This vibe coded repo (still too much effort) helps you efficiently back up your important project files and directories to a destination backup folder, using OneDrive as a robust cloud solution. This repository provides a PowerShell script and configuration setup to help you maintain organized, fast backups without including unnecessary files like cache, temp, or build artifacts.
 
 ---
 
