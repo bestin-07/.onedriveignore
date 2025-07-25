@@ -115,8 +115,16 @@ To ensure full access to all files (especially when creating symlinks or accessi
 
 ```batch
 @echo off
-REM Run PowerShell as administrator to execute the backup script
-powershell -NoProfile -ExecutionPolicy RemoteSigned -Command "Start-Process powershell -ArgumentList '-NoProfile -ExecutionPolicy RemoteSigned -File ""SyncWithIgnore.ps1""' -Verb RunAs"
+:: Elevate to admin
+net session >nul 2>&1
+if %errorLevel% NEQ 0 (
+    powershell -Command "Start-Process '%~f0' -Verb RunAs"
+    exit /b
+)
+
+:: Call PowerShell script
+powershell -ExecutionPolicy Bypass -File "C:\Projects\SyncWithIgnore.ps1"
+
 ```
 
 - Place this CMD/batch file in the same directory as `SyncWithIgnore.ps1`.
