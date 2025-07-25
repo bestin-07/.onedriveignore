@@ -58,12 +58,11 @@ You specify these three locations in the script before running.
 ## Example `.onedriveignore`
 
 ```
-*.log
-*.tmp
+
 cache/
 build/
 node_modules/
-bin/*.exe
+bin/
 secrets.txt
 ```
 
