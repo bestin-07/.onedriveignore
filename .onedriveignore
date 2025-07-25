@@ -1,12 +1,43 @@
+# Ignore all 'bin' and 'obj' folders in any subdirectory
+**\bin\
+**\obj\
 
+# Ignore all hidden Git folders and metadata
+**\.git\
+**\.vs\
+**\.vscode\
 
-# Ignored folders Wildcards
-*.build/
-*.temp/
-
-# Ignored files
+# Ignore temporary or intermediate files
+*.tmp
 *.log
-debug.exe
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
 
-# Specific folders
-Projects/.build/
+# Ignore compiled outputs
+*.exe
+*.dll
+*.pdb
+*.class
+*.out
+
+# Ignore large files not needed for backup
+*.iso
+*.zip
+*.7z
+*.tar.gz
+
+# Ignore cache folders
+**\__pycache__\
+**\node_modules\
+**\.cache\
+
+# Ignore custom folders
+Temp\
+Scratch\
+Drafts\
+
+# Ignore specific project files
+my_project\SimulationLogs\
+my_project\OldVersions\
