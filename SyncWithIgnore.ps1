@@ -2,13 +2,13 @@
 $Source = "C:\Projects"
 $Dest = "C:\Users\user\OneDrive - COMPANY/Projects_Backup"
 $IgnoreFile = "$Source\.onedriveignore"
+$LogDir = "C:\Users\user\OneDrive - Company\logs"
 
 # Enable advanced options
 $EnableHashCheckForBin = $true
 $DryRun = $false
 
 # ====== Log setup =======
-$LogDir = "C:\Users\user\OneDrive - Company\logs"
 if (!(Test-Path -Path $LogDir)) {
     New-Item -ItemType Directory -Path $LogDir -Force | Out-Null
 }
