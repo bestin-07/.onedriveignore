@@ -65,34 +65,10 @@ You specify these three locations in the script before running.
 
 # Ignore all hidden Git folders and metadata
 **\.git\
-**\.vs\
-**\.vscode\
 
 # Ignore temporary or intermediate files
 *.tmp
 *.log
-*.bak
-*.swp
-*.DS_Store
-Thumbs.db
-
-# Ignore compiled outputs
-*.exe
-*.dll
-*.pdb
-*.class
-*.out
-
-# Ignore large files not needed for backup
-*.iso
-*.zip
-*.7z
-*.tar.gz
-
-# Ignore cache folders
-**\__pycache__\
-**\node_modules\
-**\.cache\
 
 # Ignore custom folders
 Temp\
